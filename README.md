@@ -4,7 +4,7 @@
  Legyetek kedvesek vele, mert nincs benne sok védelem (igen, tudom hogy meg kell védeni tőled szegénykét).<br /><br />
  Gombok: <br />
     nyilak: mozgás<br />
-    home: ugrás 1:1-re
+    home: ugrás 1:1-re<br />
     delete: cella tartalmának törlése<br />
     backspace: egy karakter törlése<br />
     ctrl+s: fájl mentése<br />
