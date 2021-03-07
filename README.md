@@ -9,4 +9,5 @@
     delete: cella tartalmának törlése<br />
     backspace: egy karakter törlése<br />
     ctrl+s: fájl mentése<br />
-    latin kis+nagy betűk és számok (simák és numpadosok): írás a cellákba<br />
+    latin kis+nagy betűk és számok (simák és numpadosok): írás a cellákba<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    A kódomra nem vagyok túl büszke, szóval nincs kinn, de majd lehet felrakom
