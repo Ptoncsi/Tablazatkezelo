@@ -1,0 +1,2 @@
+# Tablazatkezelo
+ minő$égi táblázatkezelő
