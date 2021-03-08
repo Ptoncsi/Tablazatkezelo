@@ -1,5 +1,7 @@
 # Táblázatkezelő
  minő$égi táblázatkezelő<br />
+ Zip: futtatható, csomagold ki, rakj bele egy csv.csv nevű file-t és nyitsd meg a CSV console.exe filet
+C# file: forráskód
  (még) Csak ";"-el és "\r\n"-el elválasztott CSV fájlokkal tud dolgozni. <br />
  Ez egy elég kezdeti verzió, később még (lehet) jön pár bugfix, fájlformátum, stb. <br />
  Legyetek kedvesek vele, mert nincs benne sok védelem (igen, tudom hogy meg kell védeni tőled szegénykét).<br /><br />
@@ -9,5 +11,4 @@
     delete: cella tartalmának törlése<br />
     backspace: egy karakter törlése<br />
     ctrl+s: fájl mentése<br />
-    latin kis+nagy betűk és számok (simák és numpadosok): írás a cellákba<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    Az exe valamiért nem működik, úgyhogy csak C#-ben tudom felrakni :(
+    latin kis+nagy betűk és számok (simák és numpadosok): írás a cellákba
