@@ -23,9 +23,9 @@ namespace console
                     csv_cells[i].Add(csv_sorok[i].Split(";")[j]);
                 }
             }
-            csv_cells = addCell(csv_cells,5,5,"hala");
+            //csv_cells = addCell(csv_cells,5,5,"hala");
             //Console.WriteLine(csv_cells[5][5]);
-            csv_cells = addCell(csv_cells, 7, 7, "a");
+            csv_cells = addCell(csv_cells, 7, 7, "");
             int printtable_result_x, printtable_result_y;
             List<List<string>> printtable_result_table;
             int[] balfelso;
@@ -93,7 +93,7 @@ namespace console
         }
 
 
-        static (int x,int y, List<List<string>> table, int[] balfelso) printTable(int x,int y, List<List<string>> table, string direction, int[] balfelso)
+        static (int x, int y, List<List<string>> table, int[] balfelso) printTable(int x, int y, List<List<string>> table, string direction, int[] balfelso)
         {
             #region nav
             switch (direction)
