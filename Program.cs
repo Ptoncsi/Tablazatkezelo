@@ -11,7 +11,16 @@ namespace console
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!");
-            string[] csv_sorok = File.ReadAllText("./csv.csv").Split("\r\n");
+            string csv_string = "";
+            try
+            {
+                csv_string = File.ReadAllText("./csv.csv");
+            }
+            catch(FileNotFoundException)
+            {
+                Console.WriteLine("Created csv.csv file");
+            }
+            string[] csv_sorok = csv_string.Split("\r\n");
             List<List<string>> csv_cells = new List<List<string>>();
 
             //Console.WriteLine(csv_sorok.Length);
